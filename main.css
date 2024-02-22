@@ -1,0 +1,499 @@
+html {
+  font-family: 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-width: 1150px;
+  background: #F6F6F6;
+  font-family: 'Oxygen', 'Lato', sans-serif;
+}
+
+body#index {
+  height: 100vh;
+  background: #F6F6F6;
+}
+
+#header {
+  height: 60px;
+  background: #EFECF3;
+  border-bottom: 2px solid #fff;
+  margin:0;
+  padding: 0;
+}
+
+#header .inner {
+  /* width: 1100px; */
+  padding-left: 50px;
+}
+
+#header h1 {
+  padding-left: 24px;
+  color: #653F77;
+  background: url("images/tee-off.png") no-repeat left center;
+}
+
+h1 {
+  padding: 15px 0 13px;
+  font-family: 'Bitter', serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+h1, h1 a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 56px;
+  font-weight: 400;
+  color: #F6F6F6;
+}
+
+p, ul {
+  width: 600px;
+}
+
+p, ul li {
+  color: #444;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin-right: 30px;
+  margin-bottom: 1em;
+}
+
+em {
+  color: #D75555;
+}
+
+
+/* ******************************* */
+
+nav#headernav {
+  float: right;
+  font-family: 'Oxygen', 'Lato', sans-serif;
+  margin-top: 19px;
+}
+
+nav#headernav ul {
+  display: inline;
+  /*margin: 0 5px 0 0;*/
+}
+
+
+nav#headernav ul li {
+  display: inline;
+  font-weight: 400;
+  margin: 0 20px 0 0;
+}
+
+nav#headernav ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #F6F6F6;
+  text-decoration: none;
+  padding: 8px 14px 10px;
+  border-radius: 3px;
+}
+
+/*nav#headernav ul li a:hover, nav#headernav ul li.active a:hover {
+  color: #364C56;
+  background: #D1D9DC;
+}*/
+
+nav#headernav ul li.active a {
+  color: #FFF;
+  background: #653F77;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+nav#headernav ul li.active a:hover {
+  opacity: 1;
+}
+
+/* ******************************* */
+
+section#banner {
+  position: relative;
+  /* height: 380px; */
+  background: #EFECF3;
+  margin:0;
+  padding: 0;
+}
+
+section#banner .inner {
+  /* width: 1100px; */
+  padding-top: 134px;
+  padding-left: 50px;
+/*  background-repeat: no-repeat;
+  background-image: url("images/profile_img.png");
+  background-position-y;*/
+}
+
+section#banner h2 {
+  color: #1C0745;
+  font-size: 56px;
+}
+
+section#banner h3 {
+  width: 565px;
+  font-family: 'Oxygen', 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+  color: #3E2572;
+  line-height: 1.2em;
+}
+
+section#banner h2, section#banner h3 {
+  margin-left: 250px;
+}
+
+section#banner img.frame {
+  display: block;
+  position: absolute;
+  height: 257px;
+  width: 257px;
+  top: 100px;
+  left: 0px;
+  border:none;
+}
+
+section#banner #specialization {
+  height: 300px;
+  width: 763px;
+  margin-left: 250px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* ******************************* */
+
+
+section#portfolio_index {
+  margin-left: 60px;
+}
+
+section#portfolio_index .portfolio_items {
+  float: left;
+}
+
+section#portfolio_index .container {
+  width: 400px;
+  padding: 10px 10px 7px;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+
+section#portfolio_index .container h3 a {
+  display: block;
+  font-family: "Roboto Slab", sans-serif;
+  padding-bottom: 10px;
+  color: #FE5165;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+section#portfolio_index .container h3 a:hover {
+  color: #E1293F;
+}
+
+section#portfolio_index .container_text {
+  margin-left: 480px;
+}
+
+section#portfolio_index .container_text p {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 17px;
+  width: 350px;
+  line-height: 2em;
+  padding-top: 7px;
+  color: #000;
+}
+
+
+/* ******************************* */
+
+section#aboutme {
+  padding-left: 50px;
+  background: #F6F6F6;
+}
+
+section#aboutme .container {
+  margin-left: 250px;
+  width: 800px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+section#aboutme p, ul li {
+  font-size: 17px;
+  color: #333;
+}
+
+section#aboutme p {
+  margin-bottom: 0.8em;
+}
+
+section#aboutme img.divider {
+  display: block;
+  margin: 0 auto 35px auto;
+}
+
+section#aboutme p, section#aboutme ul li {
+  width: 800px;
+}
+
+section#aboutme ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin-left: 21px;
+  margin-bottom: 35px;
+}
+
+section#aboutme ul li {
+  background-image: url("images/bullet.png");
+  background-repeat: no-repeat;
+  background-position: left 8px;
+  padding-left: 17px;
+  margin-bottom: 0.5em;
+}
+
+/* *************************************** */
+
+
+section#projects {
+  min-width: 1150px;
+  background: #260F55;
+  padding-bottom: 25px;
+}
+
+section#projects .inner {
+  padding-top: 65px;
+  margin-left: 100px;
+}
+
+section#projects #project-timeline {
+  margin-top: 100px;
+}
+
+section#projects h2 {
+  font-size: 48px;
+  font-weight: regular;
+}
+
+section#projects h3 {
+  font-family: "Bitter", serif;
+  font-size: 32px;
+  color: #FFF;
+  margin-bottom: 4px;
+}
+
+section#projects h4 {
+  font-family: "Oyxgen", sans-serif;
+  font-size: 14px;
+  color: #A096B5;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding-bottom: 10px;
+}
+
+section#projects p {
+  width: auto;
+  font-weight: 16px;
+  color: #FFF;
+}
+
+section#projects p em {
+  font-weight: 600;
+  color: #FFADB6;
+}
+
+section#projects .project {
+  padding-bottom: 140px;
+  background-repeat: no-repeat;
+  background-image: url("images/timeline-line.png");
+  background-position: 500px 0;
+}
+
+section#projects .project.last {
+  background: none;
+}
+
+section#projects .text_right {
+  position: relative;
+  float: left;
+  /* width: 370px; */
+  width: 500px;
+  padding-top: 45px;
+  text-align: right;
+}
+
+section#projects .text_right .indent{
+  margin-right: 130px;
+}
+
+section#projects .project img.project-icon {
+  position: absolute;
+}
+
+section#projects .project.primary img.project-icon {
+  top: 0;
+  right: -95px;
+}
+
+section#projects .project.secondary img.project-icon {
+  top: 0;
+  right: -63px;
+}
+
+section#projects .project.neutral img.project-icon {
+  top: 0;
+  right: -79px;
+}
+
+section#projects .project .project-thumbs {
+  padding-top: 1px;
+}
+
+section#projects .project .project-thumbs img {
+  padding-right: 5px;
+}
+
+section#projects .project .project-details {
+  margin-left: 500px;
+  padding-top: 30px;
+  background: url("images/project-details-bg.png") no-repeat;
+}
+
+section#projects .project.primary .project-details {
+  width: 405px;
+  padding-left: 130px;
+  padding-right: 15px;
+}
+
+section#projects .project.secondary .project-details {
+  width: 450px;
+  min-height: 183px;
+  padding-left: 100px;
+}
+
+section#projects .project.neutral .project-details {
+  width: 405px;
+  padding-left: 120px;
+  padding-right: 25px;
+}
+
+section#projects #tracker_redesign.project.primary .project-details {
+  width: 424px;
+  padding-right: 1px;
+}
+
+/* *************************************** */
+
+section#portfolio .container, section#portfolio .container .text_right {
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+section.content h3 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 40px;
+  color: #333;
+}
+
+section.content h3 span {
+  color: #666;
+}
+
+section.content h4 {
+  color: #648D38;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  padding-top: 30px;
+}
+
+section#portfolio.content {
+  width: 860px;
+}
+
+section#portfolio p, section#portfolio ul li {
+  font-size: 16px;
+  line-height: 1.55em;
+  font-weight: 400;
+  color: #000;
+}
+
+section#portfolio ul {
+  margin-left: 30px;
+}
+
+section ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+
+
+img#workflow1 {
+  float: left;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+img#workflow3 {
+  float: right;
+  margin-right: 30px;
+}
+
+#tracker_redesign .image_right {
+  float: right;
+  width: 282px;
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-right: 30px;
+}
+
+section#aboutme p a {
+  color: #FFF;
+}
+
+section#aboutme p a:hover {
+  background-color: transparent;
+}
+
+
+section#aboutme a.seemywork {
+  display: inline-block;
+  margin-left: 80px;
+  color: #FFF;
+  background: #FE5165;
+  padding: 16px 24px;
+  margin-left: 80px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+section#aboutme a.seemywork:hover {
+  background: #F9384E;
+}
+
+section#aboutme .text_left img {
+  display: block;
+  position: absolute;
+  right: -43px;
+  top: -33px;
+}
